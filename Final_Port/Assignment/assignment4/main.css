@@ -1,0 +1,231 @@
+body{
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #F2E6CE;
+	margin: 0%;
+}
+.grid-container {
+	display: grid;
+	grid-row-gap: 20px;
+	grid-template-columns: 50% auto;
+}
+
+span{
+    font-weight: bold;
+}
+
+.HeadBG{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic/cinnamon-all.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.HeadText{
+	padding-top: 18%;
+	padding-bottom: 18%;
+    font-weight: normal;
+    font-size: 72pt;
+	color: white;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.746);
+    text-align: center;
+    align-self: center;
+}
+
+.Ingredients{
+    font-weight: normal;
+    font-size: 18pt;
+    border-radius: 76px;
+    background-color: #E8CE9B;
+	margin-top: 100px;
+	margin-bottom: 100px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.Step{
+    font-weight: normal;
+    font-size: 18pt;
+    border-radius: 76px;
+    background-color: #E8CE9B;
+	margin-top: 100px;
+	margin-bottom: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.right_image{
+	text-align: center;
+}
+
+.right_image img{
+	border: 3px solid #594336;
+}
+
+.left_image{
+	text-align: center;
+	margin-left: 100px;
+}
+
+.left_image img{
+	border: 3px solid #594336;
+}
+
+.right_image2{
+	text-align: center;
+}
+
+.right_image2 img{
+	border: 3px solid #594336;
+	width: 70%;
+}
+
+.Source{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#header{
+	grid-column: 1 / span 2;
+}
+
+#main1{
+	grid-column: 1 / span 1;
+}
+
+#right_pic{
+	grid-column: 2 / span 1;
+}
+
+#left_pic{
+	grid-column: 1 / span 1;
+	grid-row: 3 / span 2;
+}
+
+#main2{
+	grid-column: 2 / span 1;
+	grid-row: 3 / span 1;
+}
+
+#right_pic2{
+	grid-area: 4 / 2 / span 1 / 2;
+}
+
+#footer{
+	grid-column: 1 / span 3;
+}
+
+@media only screen and (max-width: 1678px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		grid-row-gap: 20px;
+	}
+
+	#header{
+		grid-column: 1 / span 1;
+	}
+
+	#main1{
+		grid-column: 1 / span 1;
+	}
+
+	#right_pic{
+		grid-column: 1 / span 1;
+	}
+
+	#left_pic{
+		grid-column: 1 / span 1;
+		grid-row: auto;
+	}
+
+	#main2{
+		grid-column: 1 / span 1;
+		grid-row: auto;
+	}
+
+	#right_pic2{
+		grid-column: 1 / span 1;
+		grid-row: auto;
+	}
+
+	#footer{
+		grid-column: 1 / span 1;
+	}
+
+	.Ingredients{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.Step{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.right_image{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.right_image img{
+		width: 70%;
+	}
+
+	.left_image{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.left_image img{
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		grid-row-gap: 20px;
+	}
+
+	#header{
+		grid-column: 1 / span 1;
+	}
+
+	#main1{
+		grid-column: 1 / span 1;
+	}
+	
+	#right_pic{
+		grid-column: 1 / span 1;
+	}
+
+	#left_pic{
+		grid-column: 1 / span 1;
+		grid-row: auto;
+
+	}
+
+	#main2{
+		grid-column: 1 / span 1;
+		grid-row: auto;
+
+	}
+
+	#right_pic2{
+		grid-column: 1 / span 1;
+		grid-row: auto;
+
+	}
+
+	#footer{
+		grid-column: 1 / span 1;
+	}
+}

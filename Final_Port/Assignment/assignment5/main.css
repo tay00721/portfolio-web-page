@@ -1,0 +1,23 @@
+
+body{
+    background-color: #F15966;
+    color: white;
+    font-size: 32px;
+}
+
+div{
+    display: inline;
+}
+
+#postButton{
+    background-color: white;
+    color: #F15966;
+    border-radius: 76px;
+
+}
+#clearButton{
+    background-color: white;
+    color: #F15966;
+    border-radius: 76px;
+
+}

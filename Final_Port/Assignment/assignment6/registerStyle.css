@@ -1,0 +1,48 @@
+body{
+    background-color: #E8D64A;
+}
+#myForm{
+    color: white;
+    font-size: 24px;
+}
+legend{
+    font-size: 32px;
+}
+fieldset{
+    width: 30%;
+    background-image: linear-gradient(#EB6AAB, #029DE3);
+    border-radius: 40px;
+    border-width: 10px;
+    margin: auto;
+}
+
+input[type = submit]{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 10px;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    height: 40px;
+    background-color: #328F9C;
+    border-radius: 40px;
+    border-color: white;
+}
+
+input[type = reset]{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    height: 40px;
+    background-color: #328F9C;
+    border-radius: 40px;
+    border-color: white;
+}
+
+#errormsg{
+    color: yellow;
+}

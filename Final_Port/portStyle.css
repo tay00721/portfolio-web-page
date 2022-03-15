@@ -1,0 +1,518 @@
+body{
+    margin: 0%;
+    background-color: #F0D79D;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.HeadBG{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("Pic/headerBG1.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.HeadText{
+	padding-top: 18%;
+	padding-bottom: 18%;
+    font-weight: normal;
+    font-size: 72pt;
+	color: #F0D79D;
+    text-align: center;
+    align-self: center;
+}
+
+.MenuContainer{
+    background-color: #705A27;
+    border-color: #BDA97B;
+    display: flex;
+    justify-content: space-around;
+}
+
+.MenuContainer li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.MenuContainer li a{
+    color: #F0D79D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.MenuContainer li a:hover{
+    color: #F2C355;
+}
+
+.ProPic{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ProPic img{
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #706349;
+    border-radius: 50%;
+    width: 35%;
+}
+
+.Name{
+    color: #705827;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.AboutMe{
+    color: #705827;
+    font-size: 24px;
+    font-style: italic;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.Hobby{
+    margin-top: 30px;
+    text-align: center;
+    color: #705827;
+}
+
+.Hobby p{
+    font-size: 24px;
+}
+.Hobby li{
+    list-style-type: none;
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.Skills{
+    margin-top: 30px;
+    text-align: center;
+    color: #705827;
+}
+
+.Skills p{
+    font-size: 24px;
+}
+
+.Skills li{
+    list-style-type: none;
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.Interests{
+    margin-top: 30px;
+    text-align: center;
+    color: #705827;
+}
+
+.Interests p{
+    font-size: 24px;
+}
+
+.Interests li{
+    list-style-type: none;
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.ContactContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #705827;
+    height: 70%;
+}
+
+.ContactContainer a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #F0D79D;
+}
+
+.ContactContainer i{
+    color: #F0D79D;
+}
+
+.ContactContainer a:hover{
+    color: #F2C355;
+    text-decoration: underline;
+}
+
+.Facebook{
+      padding: 35px 0;
+}
+
+.Instragram{
+    padding: 35px 0;
+}
+
+.Email{
+    padding: 35px 0;
+}
+
+.WebProg{
+    color: #705827;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.AboutWebProg{
+    color: #705827;
+    font-size: 24px;
+    font-style: italic;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.WorkCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.WorkCard img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.WorkCard:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Description{
+    color: #705827;
+    padding: 2px 16px;
+    text-align: center;
+
+}
+
+.Description p{
+    color: #705827;
+    opacity: 0.8;
+    font-size: 18px;
+    font-style: italic;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.Pic2{
+    text-align: center;
+    font-size: 240px;
+    padding-top: 120px;
+    color: #705827;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 3px;
+    width: 80%;
+    background-color: #706349;
+    border-color: #706349;
+}
+
+#myWebProg{
+	grid-column: 1 / span 3;
+}
+
+#myWork1{
+    grid-column: 1 / span 1;
+    margin-top: 50px;
+}
+
+#myWork2{
+    grid-column: 2 / span 1;
+    margin-top: 50px;
+}
+
+#myWork3{
+    grid-column: 3 / span 1;
+    margin-top: 50px;
+}
+
+#myWork4{
+    grid-column: 1 / span 1;
+    margin-top: 50px;
+}
+
+#myPic2{
+    grid-column: 2 / span 1;
+    margin-top: 50px;
+}
+
+#myWork5{
+    grid-column: 3 / span 1;
+    margin-top: 50px;
+}
+
+#myGameProject{
+    grid-column: 1 / span 3;
+    margin-top: 50px;
+}
+
+#myGame1{
+    grid-column: 1 / span 1;
+    margin-top: 50px;
+}
+
+#myGame2{
+    grid-column: 2 / span 1;
+    margin-top: 50px;
+}
+
+#myPic3{
+    grid-column: 3 / span 1;
+    margin-top: 50px;
+}
+
+#myPic4{
+    grid-column: 1 / span 1;
+    margin-top: 50px;
+}
+
+#myGame3{
+    grid-column: 2 / span 1;
+    margin-top: 50px;
+}
+
+#myGame4{
+    grid-column: 3 / span 1;
+    margin-top: 50px;
+}
+
+#header{
+	grid-column: 1 / span 3;
+}
+
+#menu{
+    grid-column: 1 / span 3;
+}
+
+#myPic{
+    grid-column: 1 / span 3;
+}
+
+#myName{
+    grid-column: 1 / span 3;
+}
+
+#myHobby{
+    grid-column: 1 / span 1;
+}
+
+#mySkills{
+    grid-column: 2 / span 1;
+}
+
+#myInterests{
+    grid-column: 3 / span 1;
+}
+
+#myContact{
+    grid-column: 1 / span 3;
+}
+
+@media only screen and (max-width: 767px) {
+    .HeadText{
+        font-size: 48pt;
+    }  
+
+    .MenuContainer li{
+        font-size: 24px;
+    }
+
+    .Name{
+        font-size: 24px;
+    }
+    
+    .AboutMe{
+        font-size: 18px;
+    }
+
+    .Hobby p{
+        font-size: 18px;
+    }
+    .Hobby li{
+        font-size: 14px;
+    }
+    
+    .Skills p{
+        font-size: 18px;
+    }
+    
+    .Skills li{
+        font-size: 14px;
+    }
+    
+    .Interests p{
+        font-size: 18px;
+    }
+    
+    .Interests li{
+        font-size: 14px;
+    }
+
+    .ContactContainer a{
+        font-size: 18px;
+    }
+
+    .ContactContainer i{
+        font-size: 18px;	
+    }
+
+    .Pic2{
+        text-align: center;
+        font-size: 120px;
+        padding-top: 120px;
+        color: #705827;
+    }
+
+    .grid-container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #myWebProg{
+        grid-column: 1 / span 2;
+    }
+    
+    #myWork1{
+        grid-column: 1 / span 1;
+    }
+    
+    #myWork2{
+        grid-column: 2 / span 1;
+    }
+    
+    #myWork3{
+        grid-column: 1 / span 1;
+    }
+    
+    #myWork4{
+        grid-column: 2 / span 1;
+    }
+    
+    #myPic2{
+        grid-column: 1 / span 1;
+    }
+    
+    #myWork5{
+        grid-column: 2 / span 1;
+    }
+    
+    #myGameProject{
+        grid-column: 1 / span 2;
+    }
+    
+    #myGame1{
+        grid-column: 1 / span 1;
+    }
+    
+    #myGame2{
+        grid-column: 2 / span 1;
+    }
+    
+    #myPic3{
+        grid-column: 1 / span 1;
+    }
+    
+    #myPic4{
+        grid-column: 2 / span 1;
+    }
+    
+    #myGame3{
+        grid-column: 1 / span 1;
+    }
+    
+    #myGame4{
+        grid-column: 2 / span 1;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .grid-container2{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #myWebProg{
+        grid-column: 1 / span 1;
+    }
+    
+    #myWork1{
+        grid-column: 1 / span 1;
+    }
+    
+    #myWork2{
+        grid-column: 1 / span 1;
+    }
+    
+    #myWork3{
+        grid-column: 1 / span 1;
+    }
+    
+    #myWork4{
+        grid-column: 1 / span 1;
+    }
+    
+    #myPic2{
+        grid-column: 1 / span 1;
+    }
+    
+    #myWork5{
+        grid-column: 1 / span 1;
+    }
+    
+    #myGameProject{
+        grid-column: 1 / span 1;
+    }
+    
+    #myGame1{
+        grid-column: 1 / span 1;
+    }
+    
+    #myGame2{
+        grid-column: 1 / span 1;
+    }
+    
+    #myPic3{
+        grid-column: 1 / span 1;
+    }
+    
+    #myPic4{
+        grid-column: 1 / span 1;
+    }
+    
+    #myGame3{
+        grid-column: 1 / span 1;
+    }
+    
+    #myGame4{
+        grid-column: 1 / span 1;
+    }
+}

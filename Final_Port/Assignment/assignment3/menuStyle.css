@@ -1,0 +1,153 @@
+body{
+    background-color: #F2E6CE;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+
+}
+.Container_Head{
+    display: flex;
+}
+
+.Container_Head img{
+    border: 3px solid #594336;
+    width: 100%;
+}
+.Head{
+    width: 50%;    
+    font-weight: normal;
+    font-size: 64px;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+    text-align: center;
+    align-self: center;
+}
+.HeadPic{
+    width: 50%;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 3px;
+    width: 80%;
+    background-color: #594336;
+    border-color: #594336;
+}
+
+.Container_Ingredients{
+    display: flex;
+}
+
+.Ingredients_Pic{
+    margin-left: 40px;
+}
+
+.Ingredients_Pic img {
+    border: 3px solid #594336;
+    width: 100%;
+}
+
+.Ingredients{
+    font-weight: normal;
+    font-size: 18pt;
+    border-radius: 76px;
+    background-color: #E8CE9B;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+span{
+    font-weight: bold;
+}
+
+.Container_Step_1{
+    display: flex;
+}
+
+.Step_1{
+    font-weight: normal;
+    font-size: 18pt;
+    border-radius: 76px;
+    background-color: #E8CE9B;
+    margin-right: 100px;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-self: center;
+}
+
+.Step_1_Pic{
+    margin-right: 40px;
+}
+
+.Step_1_Pic img{
+    border: 3px solid #594336;
+    width: 100%;
+}
+
+.Container_Step_2{
+    display: flex;
+}
+
+.Step_2_Pic{
+    margin-left: 40px;
+}
+
+.Step_2_Pic img{
+    border: 3px solid #594336;
+    width: 100%;
+}
+
+.Step_2{
+    font-weight: normal;
+    font-size: 18pt;
+    border-radius: 76px;
+    background-color: #E8CE9B;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-self: center;
+}
+
+.Container_Pic{
+    display: flex;
+}
+
+.Container_Pic img{
+    border: 3px solid #594336;
+}
+
+.Pic_1{
+    margin-left: 40px;
+}
+
+.Pic_2{
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.Pic_2 img{
+    width: 120%;
+}
+
+
+.Pic_3{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.Pic_3 img{
+    height: 931px;
+}
+
+.Source{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
